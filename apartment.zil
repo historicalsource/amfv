@@ -369,7 +369,7 @@ street are off to the east.">)>>
 		      (<EQUAL? ,HERE ,LIVING-ROOM>
 		       <TELL
 "You don't need the key to open the door from the inside!">
-		       <COND (<IN? ,HERE ,JILL>
+		       <COND (<IN? ,JILL ,HERE>
 			      <TELL
 " Jill gives you a funny look as you try.">)>
 		       <CRLF>)
@@ -1656,6 +1656,7 @@ so as not to wake him." CR>)
 		<TELL
 "As Jill has reminded you many times, babies need their sleep." CR>)
 	       (<AND <VERB? PUT PUT-ON>
+		     <PRSO? ,BABY>
 		     <NOT <PRSI? ,CRIB>>>
 		<NO-PLACE-FOR-BABY ,PRSI>)
 	       (<VERB? DROP>

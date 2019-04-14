@@ -93,7 +93,7 @@ everything's there this time.\"" CR>
 	 <QUEUE I-MESSAGE-E 14>>
 
 <ROUTINE I-MESSAGE-M ()
-	 ;<COND (<OR ,SIMULATING ;"let I-SIMULATION disable I-MESSAGE-M"
+	 ;<COND (<OR ,SIMULATING ;"let SIMULATION-ACTION disable I-MESSAGE-M"
 		    <QUEUED? ,I-FIRST-SIMULATION-RESULT>>
 		<RFALSE>)>
 	 <COND (<EQUAL? <GETP ,MESSAGE-M ,P?CAPACITY> 0>
@@ -1343,8 +1343,10 @@ theoretically fit in a space no larger than a pack of cigarettes.")>
 		       (<EQUAL? .CNT 0>
 			<RETURN>)>>
 	 <INCREMENT-TIME <- 360 .CNT>>
-	 <PUT-PERELMAN-IN-THE-RIGHT-PLACE>
-	 <QUEUE I-PERELMAN -1>
+	 <COND (<L? ,PART-FLAG 3>
+	 	<PUT-PERELMAN-IN-THE-RIGHT-PLACE>
+	 	<QUEUE I-PERELMAN -1>
+		<SETG LAST-ABE-TIME <- ,TIME 1>>)>
 	 <COND (<EQUAL? .CNT 0>
 		<TELL
 "Some time later, you awake feeling relaxed and notice that about
@@ -1385,7 +1387,7 @@ six hours have passed." CR>)>
 		<COND (<EQUAL? ,PART-FLAG 4>
 		       <TELL "There are currently no active outlets." CR>)
 		      (T
-		       <TELL "   ">
+		       <TELL "    ">
 		       <PRINTD ,CONTROL-CENTER>
 		       <TELL " (PPCC)|    ">
 		       <PRINTD ,ROOFTOP>
@@ -1634,8 +1636,7 @@ holding a woman.">)>
 <ROOM OFFICE
       (LOC ROOMS)
       (DESC "Dr. Perelman's Office")
-      (FLAGS ONBIT)
-      (FLAGS NARTICLEBIT)
+      (FLAGS ONBIT NARTICLEBIT)
       (GLOBAL SHELVES OUTLETS PEOPLE)
       (ACTION OFFICE-F)>
 
@@ -2086,7 +2087,8 @@ paperwork you could lose a skybus in.\"" CR>
 		       <RTRUE>)
 		      (T
 		       <TELL "\"You don't have to thank me!\"" CR>)>)
-	       (<VERB? CALL>
+	       (<AND <VERB? CALL>
+		     <VISIBLE? ,PERELMAN>>
 		<PERFORM ,V?TELL ,PERELMAN>
 		<RTRUE>)
 	       ;(<VERB? HELLO>
@@ -3975,10 +3977,8 @@ hadn't been caught in time.">)>
 		       <PRINTD ,SIMULATION-MODE>
 		       <TELL ". Please await approval." CR>)
 		      (<SECURITY-CHECK>
-		       <SETG MODE ,SIMULATION-MODE>
 		       <TURN-RECORD-OFF T>
-		       <GOTO ,SIMULATION-ROOM>
-		       <I-SIMULATION>)
+		       <SIMULATION-ACTION>)
 		      (T
 		       <SETG MODE ,COMM-MODE>
 		       <GOTO ,COMM-ROOM>
@@ -3990,6 +3990,9 @@ hadn't been caught in time.">)>
 		<V-ABORT>)>>
 
 <ROUTINE SECURITY-CHECK ("AUX" (CHANCES 0) (X <>) COLOR INNERNUM OUTERNUM)
+	 <SETG MODE ,SIMULATION-MODE>
+	 <GOTO ,SIMULATION-ROOM>
+	 <STATUS-LINE>
 	 <COND (<EQUAL? ,PART-FLAG 4>
 		<RTRUE>)>
 	 <SET COLOR <- <RANDOM 16> 1>>
@@ -4080,7 +4083,7 @@ and so on. Here's a list of the minimum times before advancement is possible:
 <ROUTINE SIMULATION-BASED (NUM)
 	 <TELL "This simulation is based " N .NUM " years hence." CR CR>>
 
-<ROUTINE I-SIMULATION ()
+<ROUTINE SIMULATION-ACTION ()
 	 <COND (<EQUAL? ,PART-FLAG 4>
 		<TELL "Class One Security: waived. ">
 		<SIMULATION-BASED 60>
@@ -5060,7 +5063,8 @@ car!\" He yanks open the door and snaps a finger at one of the Guardsmen,
 ending the snap by pointing at Perelman. Ryder stomps away as the guard drags
 Perelman out of the office." CR>
 		<CLEAR-BUF>)
-	       (<VERB? CALL>
+	       (<AND <VERB? CALL>
+		     <VISIBLE? ,RYDER>>
 		<PERFORM ,V?TELL ,RYDER>
 		<RTRUE>)
 	       (<VERB? EXAMINE>

@@ -126,7 +126,7 @@
 	<OR <EQUAL? ,PRSA ,V?FIND ,V?FOLLOW ,V?BUY>
 	    <EQUAL? ,PRSA ,V?WHAT ,V?WHERE ,V?WHO>
 	    <EQUAL? ,PRSA ,V?BUY-WITH ,V?WALK-TO ,V?WAIT-FOR>
-	    <EQUAL? ,PRSA ,V?CALL ,V?PAY-FOR>>>
+	    <EQUAL? ,PRSA ;,V?CALL ,V?PAY-FOR>>>
 
 <ROUTINE PRSI-VERB? ()
 	<EQUAL? ,PRSA ,V?ASK-ABOUT ,V?ASK-FOR ,V?TELL-ABOUT>>
@@ -337,7 +337,7 @@ separate this entrance area from the prison proper." CR>)>>
 	(LOC GLOBAL-OBJECTS)
 	(DESC "sleep")
 	(SYNONYM SLEEP NAP)
-	(ADJECTIVE NARTICLEBIT)
+	(FLAGS NARTICLEBIT)
 	(ACTION SLEEP-F)>
 
 <ROUTINE SLEEP-F ()
@@ -2015,7 +2015,7 @@ background of the city's oldest park." CR>)
 		<COND (<EQUAL? ,HERE ,KITCHEN>
 		       <TELL
 "There's no room on the counter. Maybe you should try the table." CR>)
-		      (<PRSI? ,COUNTER>
+		      ;(<PRSI? ,COUNTER>
 		       <PERFORM ,V?DROP ,BEER>
 		       <RTRUE>)
 		      (<NOT <EQUAL? ,HERE ,EPILOGUE-KITCHEN>>
@@ -2741,7 +2741,9 @@ to the Devil's Tower region of Wyoming. ">
 		<CURSET .LINE-NUMBER 1>)>
 	 <HLIGHT 1>
 	 <REPEAT ()
+		 ;<BUFOUT T> ;"only use for (speeding up) Amiga"
 		 <TELL "                                        ">
+		 ;<BUFOUT <>> ;"only use for (speeding up) Amiga"
 		 <COND (.CENTER-HALF
 			<RETURN>)
 		       (T
@@ -2755,8 +2757,14 @@ to the Devil's Tower region of Wyoming. ">
 		       (T
 			<PRINTC 32>)>>>
 
-<ROUTINE CONTINUE ("AUX" (CURRENTLY-SCRIPTING <>))
-	 <CRLF> <CRLF> <CRLF>
+<ROUTINE CONTINUE ("AUX" (CURRENTLY-SCRIPTING <>) CNT)
+	 <COND (<G? <GETB 0 32> 21> ;"is screen more than 21 lines tall?"
+	        <SET CNT <- <GETB 0 32> 21>>
+	        <REPEAT ()
+			<SET CNT <- .CNT 1>>
+			<CRLF>
+			<COND (<EQUAL? .CNT 0>
+			       <RETURN>)>>)>
 	 <COND (<BTST <GET 0 8> 1> ;"turn scripting off so [MORE] won't print"
 		<SET CURRENTLY-SCRIPTING T>
 		<DIROUT ,D-PRINTER-OFF>)>

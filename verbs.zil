@@ -363,19 +363,6 @@ Release " N .V " / Serial number ">
 	       (T
 		<SETG DEBUG T>
 		<TELL "Debugging on." CR>)>>
-
-;<ROUTINE V-$TABLE ("AUX" CNT)
-	 <SET CNT ,P-NUMBER>
-	 <REPEAT ()
-		<TELL S .CNT " = " S <+ 1000 <RANDOM 8999>> "     ">
-		<TELL S <+ .CNT 40> " = " S <+ 1000 <RANDOM 8999>> "     ">
-		<TELL S <+ .CNT 80> " = " S <+ 1000 <RANDOM 8999>> "     ">
-		<TELL S <+ .CNT 120> " = " S <+ 1000 <RANDOM 8999>> "     ">
-		<TELL S <+ .CNT 160> " = " S <+ 1000 <RANDOM 8999>> "     " CR>
-		<SET CNT <+ .CNT 1>>
-		<COND (<EQUAL? .CNT 40>
-		       <CRLF>
-		       <RETURN>)>>>
 
 ;"subtitle real verbs"
 
@@ -599,9 +586,14 @@ Release " N .V " / Serial number ">
 
 <ROUTINE V-CALL ()
 	 <COND (<FSET? ,PRSO ,ACTORBIT>
-		<TELL "You do so, but">
-		<ARTICLE ,PRSO>
-		<TELL " doesn't seem to hear you." CR>)
+		<COND (<VISIBLE? ,PRSO>
+		       <TELL "You do so, but">
+		       <ARTICLE ,PRSO>
+		       <TELL " doesn't seem to hear you." CR>)
+		      (T
+		       <TELL "But">
+		       <ARTICLE ,PRSO>
+		       <TELL " isn't within earshot." CR>)>)
 	       (T
 		<TELL "That's an odd thought." CR>)>>
 
@@ -2765,7 +2757,7 @@ long description (fdesc or ldesc), otherwise will print short."
 
 <CONSTANT NEXITSTR 0>
 <CONSTANT FEXITFCN 0>
-<CONSTANT CEXITFLAG 4>
+<CONSTANT CEXITFLAG 1>
 <CONSTANT CEXITSTR 1>
 <CONSTANT DEXITOBJ 1>
 <CONSTANT DEXITSTR 2>

@@ -714,7 +714,7 @@ OOPS-INBUF, leaving the appropriate pointers in AGAIN-LEXV"
 	<TELL "[I don't know the word \"">
 	<WORD-PRINT <GETB <REST ,P-LEXV <SET BUF <* .PTR 2>>> 2>
 		    <GETB <REST ,P-LEXV .BUF> 3>>
-	<TELL "\".]" CR>
+	<TELL ".\"]" CR>
 	<SETG QUOTE-FLAG <>>
 	;<SETG P-OFLAG <>>>
 
