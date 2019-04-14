@@ -1,0 +1,21 @@
+Assembling S5.XZAP.1 on Wednesday, August 14, 1985 13:13:39
+Release(last was 76): 77
+
+    64	Inserting S5FREQ.XZAP.2	   (652 bytes)
+   716	Inserting S5DAT.ZAP.1	 (51251 bytes)
+ 51967	Inserting MISC.ZAP.1	  (3073 bytes)
+ 55040	Inserting PARSER.ZAP.1	  (7127 bytes)
+ 62167	Inserting INTERRUPTS.ZAP.1	 (13331 bytes)
+ 75498	Inserting VERBS.ZAP.1	 (15627 bytes)
+ 91125	Inserting GLOBALS.ZAP.1	 (15318 bytes)
+106443	Inserting SYNTAX.ZAP.1	     (0 bytes)
+106443	Inserting ROCKVIL.ZAP.1	 (69488 bytes)
+175931	Inserting PRISM.ZAP.1	 (45314 bytes)
+221245	Inserting APARTMENT.ZAP.1	 (12524 bytes)
+233769	Inserting S5STR.ZAP.1	 (28245 bytes)
+609 objects.
+229 globals.
+1813 word vocabulary.
+
+262014 bytes (256K).
+ 51955 bytes of preload.

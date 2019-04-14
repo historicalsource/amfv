@@ -1,0 +1,1879 @@
+
+Combined ZIL Compiler Ver 2.0 (MIM)
+-----------------------------------
+Input file: S5.ZIL
+Input file: MISC.ZIL
+Compiling routine: INT-NO-INSERT
+Compiling routine: QUEUED?
+Compiling routine: RUNNING?
+Compiling routine: PICK-ONE
+Compiling routine: SPRINT
+Compiling routine: DPRINT
+Compiling routine: GO
+Compiling routine: MAIN-LOOP
+Compiling routine: MAIN-LOOP-1
+Compiling routine: DONT-ALL?
+Compiling routine: FAKE-ORPHAN
+Compiling routine: PERFORM
+Compiling routine: D-APPLY
+Compiling routine: QUEUE
+Compiling routine: INT
+Compiling routine: CLOCKER
+Compiling routine: INCREMENT-TIME
+Compiling routine: TUBES-CLOSE?
+Compiling routine: ITALICIZE
+Compiling routine: CONVERT-SYEAR-TO-NUM
+Input file: PARSER.ZIL
+Compiling routine: PARSER
+Compiling routine: CHANGE-LEXV
+Compiling routine: STUFF
+Compiling routine: INBUF-STUFF
+Compiling routine: INBUF-ADD
+Compiling routine: WT?
+Compiling routine: CLAUSE
+Compiling routine: NUMBER?
+Compiling routine: ORPHAN-MERGE
+Compiling routine: ACLAUSE-WIN
+Compiling routine: NCLAUSE-WIN
+Compiling routine: WORD-PRINT
+Compiling routine: UNKNOWN-WORD
+Compiling routine: CANT-USE
+Compiling routine: SYNTAX-CHECK
+Compiling routine: CHANGE-CLOTHES?
+Compiling routine: VERB-PRINT
+Compiling routine: ORPHAN
+Compiling routine: CLAUSE-PRINT
+Compiling routine: BUFFER-PRINT
+Compiling routine: NAME?
+Compiling routine: CAPITALIZE
+Compiling routine: PREP-PRINT
+Compiling routine: CLAUSE-COPY
+Compiling routine: CLAUSE-ADD
+Compiling routine: PREP-FIND
+Compiling routine: SYNTAX-FOUND
+Compiling routine: GWIM
+Compiling routine: SNARF-OBJECTS
+Compiling routine: BUT-MERGE
+Compiling routine: SNARFEM
+Compiling routine: ADJ-CHECK
+Compiling routine: NOUN-MISSING
+Compiling routine: GET-OBJECT
+Compiling routine: MOBY-FIND
+Compiling routine: WHICH-PRINT
+Compiling routine: GLOBAL-CHECK
+Compiling routine: DO-SL
+Compiling routine: SEARCH-LIST
+Compiling routine: OBJ-FOUND
+Compiling routine: TAKE-CHECK
+Compiling routine: ITAKE-CHECK
+Compiling routine: MANY-CHECK
+Compiling routine: THIS-IT?
+Input file: INTERRUPTS.ZIL
+Compiling routine: I-PERELMAN
+Compiling routine: PUT-PERELMAN-IN-THE-RIGHT-PLACE
+Compiling routine: I-JILL
+Compiling routine: I-MITCHELL
+Compiling routine: I-APARTMENT
+Compiling routine: I-CURFEW
+Compiling routine: I-SUNRISE-SUNSET
+Compiling routine: I-SKYCAB
+Compiling routine: I-SUFFOCATE
+Compiling routine: I-AIR-CONDITIONING
+Compiling routine: I-RORSCHACH
+Compiling routine: BLOT-ACTION
+Compiling routine: BLOT-WORD-COUNT
+Compiling routine: INK-BLOT
+Compiling routine: I-POST-OFFICE
+Compiling routine: I-WILD-DOGS
+Compiling routine: I-CAFETERIA
+Input file: ROCKVIL.ZIL
+Compiling routine: ROCKVILLE-CENTRE-F
+Compiling routine: DUNBARS-ENTER-F
+Compiling routine: DUNBARS-F
+Compiling routine: DUNBARS-OBJECT-F
+Compiling routine: RACKS-F
+Compiling routine: CLOTHES-F
+Compiling routine: SWEATER-F
+Compiling routine: VEST-F
+Compiling routine: SCARF-F
+Compiling routine: CITY-HALL-F
+Compiling routine: CITY-HALL-ENTER-F
+Compiling routine: CITY-HALL-OBJECT-F
+Compiling routine: BENCH-F
+Compiling routine: GOVERNMENT-OFFICIAL-F
+Compiling routine: SNACK-F
+Compiling routine: MAIN-AND-KENNEDY-F
+Compiling routine: SILICORP-BUILDING-F
+Compiling routine: INFOTECH-BUILDING-F
+Compiling routine: SKYBUS-TERMINAL-ENTER-F
+Compiling routine: SKYBUS-TERMINAL-F
+Compiling routine: BOARDING-PLATFORM-F
+Compiling routine: SKYBUS-F
+Compiling routine: SKYBUS-TERMINAL-OBJECT-F
+Compiling routine: TOWNHOUSE-F
+Compiling routine: KENNEDY-PARK-ENTER-F
+Compiling routine: KENNEDY-PARK-F
+Compiling routine: WATERPOOL-F
+Compiling routine: STATUE-F
+Compiling routine: ELM-AND-PARK-F
+Compiling routine: COURTHOUSE-ENTER-F
+Compiling routine: COURTHOUSE-F
+Compiling routine: COURTHOUSE-OBJECT-F
+Compiling routine: POLICE-STATION-OBJECT-F
+Compiling routine: POLICE-STATION-F
+Compiling routine: POLICEMAN-F
+Compiling routine: I-JAIL
+Compiling routine: BLANKET-F
+Compiling routine: POST-OFFICE-F
+Compiling routine: POST-OFFICE-OBJECT-F
+Compiling routine: SOUTHWAY-AND-PARK-F
+Compiling routine: GROCERY-STORE-DESC
+Compiling routine: MAIN-LIBRARY-ENTER-F
+Compiling routine: MAIN-LIBRARY-OBJECT-F
+Compiling routine: MAIN-LIBRARY-F
+Compiling routine: BANNED-TITLES-LIST-F
+Compiling routine: CARD-CATALOG-F
+Compiling routine: CARD-CATALOG-CARD-F
+Compiling routine: LIBRARY-ACCOUNT-F
+Compiling routine: FOODVILLE-1-F
+Compiling routine: FOODVILLE-ENTER-F
+Compiling routine: FOODVILLE-DESC
+Compiling routine: FOODVILLE-CLOSES
+Compiling routine: NOTE-F
+Compiling routine: SUPERMARKET-F
+Compiling routine: SOY-PATTY-F
+Compiling routine: I-FOODVILLE
+Compiling routine: SOUTHWAY-UNDERPASS-F
+Compiling routine: FIREHOUSE-F
+Compiling routine: FIREHOUSE-OBJECT-F
+Compiling routine: FIRETRUCK-F
+Compiling routine: ELM-AND-UNIVERSITY-F
+Compiling routine: UNIVERSITY-HEIGHTS-OBJECT-F
+Compiling routine: UNIVERSITY-HEIGHTS-F
+Compiling routine: ELM-UNDERPASS-F
+Compiling routine: ROY-F
+Compiling routine: ROYS-PAGODA-ENTER-F
+Compiling routine: ROYS-PAGODA-F
+Compiling routine: EZZIS-BAR-ENTER-F
+Compiling routine: EZZIS-BAR-F
+Compiling routine: EZZIS-BAR-EXIT-F
+Compiling routine: STUDENT-UNION-ENTER-F
+Compiling routine: LECTURE-HALL-ENTER-F
+Compiling routine: DORM-ENTER-F
+Compiling routine: ROCKVIL-UNIVERSITY-F
+Compiling routine: CAMPUS-F
+Compiling routine: DORM-F
+Compiling routine: DORM-OBJECT-F
+Compiling routine: LOUNGE-F
+Compiling routine: LECTURE-HALL-OBJECT-F
+Compiling routine: LECTURE-HALL-F
+Compiling routine: LECTURE-HALL-ITEM-F
+Compiling routine: STUDENT-UNION-OBJECT-F
+Compiling routine: STUDENT-UNION-ITEM-F
+Compiling routine: ELM-AND-KENNEDY-F
+Compiling routine: HOSPITAL-F
+Compiling routine: HOSPITAL-OBJECT-F
+Compiling routine: ANNEX-OBJECT-F
+Compiling routine: HOSPITAL-ANNEX-F
+Compiling routine: SOUTHWAY-AND-KENNEDY-F
+Compiling routine: CONSTRUCTION-SITE-1-ENTER-F
+Compiling routine: CONSTRUCTION-SITE-1-F
+Compiling routine: DERRICOPTERS-F
+Compiling routine: SOUTHWAY-AND-RIVER-F
+Compiling routine: CONSTRUCTION-SITE-2-F
+Compiling routine: ROCKVIL-MALL-ENTER-F
+Compiling routine: ROCKVIL-MALL-F
+Compiling routine: MALL-OBJECT-F
+Compiling routine: JOYBOOTH-ENTER-F
+Compiling routine: JOYBOOTH-F
+Compiling routine: JOYBOOTH-EXIT-F
+Compiling routine: JOYBOOTH-OBJECT-F
+Compiling routine: JOYBOOTH-BUTTON-F
+Compiling routine: I-JOYBOOTH-RECHARGE
+Compiling routine: HEADSET-F
+Compiling routine: ELM-AND-RIVER-F
+Compiling routine: STOCK-EXCHANGE-ENTER-F
+Compiling routine: STOCK-EXCHANGE-F
+Compiling routine: STOCK-EXCHANGE-OBJECT-F
+Compiling routine: MAIN-AND-RIVER-F
+Compiling routine: PEREZ-TOWERS-F
+Compiling routine: HEIMAN-VILLAGE-F
+Compiling routine: HEIMAN-VILLAGE-OBJECT-F
+Compiling routine: HEIMAN-WORLD-OBJECT-F
+Compiling routine: CHURCH-STREET-CITY-OBJECT-F
+Compiling routine: CHURCH-STREET-PARK-EXIT-F
+Compiling routine: CHURCH-STREET-PARK-F
+Compiling routine: FOUNTAIN-F
+Compiling routine: MAIN-AND-CHURCH-F
+Compiling routine: CONSTRUCTION-SITE-3-ENTER-F
+Compiling routine: CONSTRUCTION-SITE-4-ENTER-F
+Compiling routine: CHURCH-STREET-APARTMENTS-F
+Compiling routine: I-HUNGER
+Compiling routine: MAIN-AND-WICKER-F
+Compiling routine: UNSHAVEN-MAN-F
+Compiling routine: BORDELLO-AD-F
+Compiling routine: RAILROAD-TRACKS-F
+Compiling routine: RAILROAD-BRIDGE-F
+Compiling routine: STREET-BRIDGE-F
+Compiling routine: MAIN-AND-CHURCH-ENTER-F
+Compiling routine: FOODVILLE-2-F
+Compiling routine: MOLD-F
+Compiling routine: THE-COACHMAN-ENTER-F
+Compiling routine: THE-COACHMAN-F
+Compiling routine: TIMBERS-F
+Compiling routine: RESTAURANT-TABLE-F
+Compiling routine: MENU-F
+Compiling routine: FAST-FOOD-MENU
+Compiling routine: MEAL-F
+Compiling routine: I-MEAL
+Compiling routine: PARTY-OF-ONE
+Compiling routine: GROCERIES-F
+Compiling routine: MAIN-STREET-BRIDGE-F
+Compiling routine: MAIN-STREET-BRIDGE-EXIT-F
+Compiling routine: SACK-F
+Compiling routine: BARKING-F
+Compiling routine: CEMETERY-F
+Compiling routine: CEMETERY-OBJECT-F
+Compiling routine: HEADSTONES-F
+Compiling routine: CHURCH-ENTRANCE-F
+Compiling routine: ST-MICHAELS-DESC
+Compiling routine: ST-MICHAELS-ENTER-F
+Compiling routine: CONSTRUCTION-SITE-5-ENTER-F
+Compiling routine: ST-MICHAELS-F
+Compiling routine: RUSTY-CROSS-F
+Compiling routine: CONSTRUCTION-SITE-5-F
+Compiling routine: RECTORY-OBJECT-F
+Compiling routine: MIDLAND-AND-CHURCH-F
+Compiling routine: HEALTH-CENTER-OBJECT-F
+Compiling routine: HEALTH-CENTER-F
+Compiling routine: ANDERSON-DIRECTORY-F
+Compiling routine: SKYCAR-LOT-3-F
+Compiling routine: MIDLAND-AND-RIVER-F
+Compiling routine: ALI-BUILDING-F
+Compiling routine: TRAIN-STATION-ENTER-F
+Compiling routine: TRAIN-STATION-OBJECT-F
+Compiling routine: TRAIN-STATION-EXIT-F
+Compiling routine: TRAIN-STATION-F
+Compiling routine: SOUVENIR-F
+Compiling routine: PAMPHLET-F
+Compiling routine: RACK-F
+Compiling routine: CENTRE-AND-KENNEDY-F
+Compiling routine: HUANG-HALL-OBJECT-F
+Compiling routine: HUANG-HALL-F
+Compiling routine: HALLEY-AND-PARK-F
+Compiling routine: HALLEY-MUSEUM-ENTER-F
+Compiling routine: HALLEY-MUSEUM-F
+Compiling routine: HALLEY-AND-UNIVERSITY-F
+Compiling routine: CHURCH-SKYCOPTER-F
+Compiling routine: I-CHURCH-SKYCOPTER
+Compiling routine: INTERCHANGE-OBJECT-F
+Compiling routine: NO-ENTRANCE-TO-PARK-F
+Compiling routine: HALLEY-PARK-EAST-ENTER-F
+Compiling routine: HALLEY-PARK-WEST-ENTER-F
+Compiling routine: HALLEY-PARK-WEST-F
+Compiling routine: DUCKS-F
+Compiling routine: DUCK-POND-F
+Compiling routine: HALLEY-PARK-EAST-F
+Compiling routine: HALLEY-STATUE-F
+Compiling routine: ZOO-F
+Compiling routine: CAGES-F
+Compiling routine: ANIMAL-F
+Compiling routine: ZOO-OBJECT-F
+Compiling routine: BANNER-F
+Compiling routine: SKYCAR-LOT-4-F
+Compiling routine: AQUARIUM-AND-PARK-F
+Compiling routine: AQUARIUM-ENTER-F
+Compiling routine: AQUARIUM-OBJECT-F
+Compiling routine: AQUARIUM-F
+Compiling routine: RAMP-MOVEMENT-F
+Compiling routine: TANK-F
+Compiling routine: FISH-F
+Compiling routine: RAMP-F
+Compiling routine: SERVICE-STATION-OBJECT-F
+Compiling routine: BURGER-MEISTER-ENTER-F
+Compiling routine: BURGER-MEISTER-F
+Compiling routine: BURGER-MEISTER-EXIT-F
+Compiling routine: ZOO-ENTRANCE-F
+Compiling routine: STADIUM-LOT-A-F
+Compiling routine: STADIUM-LOT-DESC
+Compiling routine: STADIUM-LOT-B-F
+Compiling routine: WATER-TOWER-F
+Compiling routine: WATER-TOWER-OBJECT-F
+Compiling routine: ROCKVIL-REFORMATORY-F
+Compiling routine: JAIL-OBJECT-F
+Compiling routine: STADIUM-LOT-C-F
+Compiling routine: ROCKVIL-STADIUM-F
+Compiling routine: STADIUM-OBJECT-F
+Compiling routine: ATHLETIC-FIELD-F
+Compiling routine: STONES-F
+Compiling routine: I-ATHLETIC-FIELD
+Compiling routine: RIVER-AND-KENNEDY-F
+Compiling routine: ROCKVIL-HIGH-ENTER-F
+Compiling routine: ROCKVIL-HIGH-F
+Compiling routine: AQUARIUM-AND-KENNEDY-F
+Compiling routine: CHUN-BUILDING-F
+Compiling routine: BANK-ENTER-F
+Compiling routine: BANK-F
+Compiling routine: BANK-OBJECT-F
+Compiling routine: DENTAL-SCHOOL-F
+Compiling routine: PARK-ENTRANCE-F
+Compiling routine: HALLEY-ESTATES-OBJECT-F
+Compiling routine: SKYCAR-LOT-5-F
+Compiling routine: FIRST-METHODIST-CHURCH-F
+Compiling routine: ELDER-MOVE
+Compiling routine: CHURCH-OFFICIAL-F
+Compiling routine: BRIEF-CHAT
+Compiling routine: BODANSKI-SQUARE-F
+Compiling routine: LAMP-POST-F
+Compiling routine: NEWSPAPER-DISPENSER-F
+Compiling routine: NEWSPAPER-F
+Compiling routine: SIMONS-ENTER-F
+Compiling routine: SIMONS-F
+Compiling routine: AQUARIUM-AND-RIVER-F
+Compiling routine: PICKFORD-THEATRE-OBJECT-F
+Compiling routine: PICKFORD-THEATRE-F
+Compiling routine: AIRPORTWAY-AND-RIVER-F
+Compiling routine: WELLS-THEATRE-OBJECT-F
+Compiling routine: WELLS-THEATRE-F
+Compiling routine: MUSEUM-ENTRANCE-F
+Compiling routine: SKYCAR-LOT-6-F
+Compiling routine: RAILROAD-MUSEUM-ENTER-F
+Compiling routine: RAILROAD-MUSEUM-F
+Compiling routine: RAILROAD-YARD-F
+Compiling routine: RIVERSIDE-PARK-ENTER-F
+Compiling routine: CINEMA-ENTER-F
+Compiling routine: CINEMA-F
+Compiling routine: THEATRE-ENTER-F
+Compiling routine: MOVIE-THEATRE-OBJECT-F
+Compiling routine: MOVIE-F
+Compiling routine: MARQUEE-F
+Compiling routine: TICKET-SELLER-F
+Compiling routine: TICKET-F
+Compiling routine: ATRIUM-F
+Compiling routine: SKYLIGHT-F
+Compiling routine: SYMPHONY-HALL-F
+Compiling routine: SYMPHONY-HALL-ENTER-F
+Compiling routine: BASE-GATE-F
+Compiling routine: BASE-GATE-ENTER-F
+Compiling routine: BSF-BASE-F
+Compiling routine: TERMINAL-F
+Compiling routine: SPACEPORT-ENTER-F
+Compiling routine: SPACEPORT-F
+Compiling routine: AIRPORT-GATE-F
+Compiling routine: SPACEPORT-GATE-F
+Compiling routine: AIRPORT-TERMINAL-OBJECT-F
+Compiling routine: BSF-GUARDS-F
+Compiling routine: AIRPORT-SIGN-F
+Compiling routine: NO-ENTRY-TO-HEIMAN-WORLD-F
+Compiling routine: BEND-F
+Compiling routine: LAUNDROMAT-OBJECT-F
+Compiling routine: DRUG-STORE-OBJECT-F
+Compiling routine: DRUG-STORE-ENTER-F
+Compiling routine: DRUG-STORE-F
+Compiling routine: MAGAZINE-F
+Compiling routine: MILKSHAKE-F
+Compiling routine: DRUGS-F
+Compiling routine: HARDWARE-STORE-OBJECT-F
+Compiling routine: HARDWARE-STORE-ENTER-F
+Compiling routine: HARDWARE-STORE-F
+Compiling routine: HARDWARE-F
+Compiling routine: TOOL-F
+Compiling routine: CLOSED-FACTORY-ENTER-F
+Compiling routine: WICKER-AND-RIVER-F
+Compiling routine: WAREHOUSE-1-F
+Compiling routine: WAREHOUSE-1-EXIT-F
+Compiling routine: WAREHOUSE-DOOR-F
+Compiling routine: CLOSED-FACTORY-F
+Compiling routine: SOUP-KITCHEN-F
+Compiling routine: STEW-F
+Compiling routine: TENEMENT-1-F
+Compiling routine: WAREHOUSE-OBJECT-F
+Compiling routine: WAREHOUSE-2-F
+Compiling routine: ALARM-F
+Compiling routine: CRATE-F
+Compiling routine: INDUSTRIAL-PARK-OBJECT-F
+Compiling routine: CITY-DUMP-F
+Compiling routine: WASTE-F
+Compiling routine: DUMP-OBJECT-F
+Compiling routine: POWER-STATION-OBJECT-F
+Compiling routine: POWER-STATION-F
+Compiling routine: RIVER-STREET-BRIDGE-F
+Compiling routine: RIVER-FIRE
+Compiling routine: SKYCAR-FACTORY-F
+Compiling routine: GUN-SHOP-ENTER-F
+Compiling routine: GUN-SHOP-OBJECT-F
+Compiling routine: GUN-SHOP-F
+Compiling routine: GUN-F
+Compiling routine: BAR-F
+Compiling routine: BAR-TO-ALLEY-F
+Compiling routine: BAR-TO-PIER-F
+Compiling routine: BAR-OBJECT-F
+Compiling routine: BAR-STOOL-F
+Compiling routine: JUKEBOX-F
+Compiling routine: PIER-OBJECT-F
+Compiling routine: PIER-F
+Compiling routine: POOL-HALL-ENTER-F
+Compiling routine: POOL-HALL-F
+Compiling routine: POOL-HALL-OBJECT-F
+Compiling routine: POOL-TABLE-F
+Compiling routine: POOL-F
+Compiling routine: WICKER-AND-PIER-F
+Compiling routine: TENEMENT-F
+Compiling routine: TENEMENT-OBJECT-F
+Compiling routine: BOOKSTORE-ENTER-F
+Compiling routine: BOOKSTORE-OBJECT-F
+Compiling routine: BOOKSTORE-F
+Compiling routine: BOOK-F
+Compiling routine: BOOKS-F
+Compiling routine: LIQUOR-STORE-OBJECT-F
+Compiling routine: LIQUOR-STORE-ENTER-F
+Compiling routine: LIQUOR-STORE-F
+Compiling routine: SCOTCH-F
+Compiling routine: BEER-F
+Compiling routine: LIQUOR-F
+Compiling routine: OTHER-LIQUOR-F
+Compiling routine: TUBE-STATION-F
+Compiling routine: TUBES-ENTER-F
+Compiling routine: TUBE-STATION-DESC
+Compiling routine: DEBARK
+Compiling routine: RED-TUBE-STATION-F
+Compiling routine: BROWN-TUBE-STATION-F
+Compiling routine: TUBECAR-AT-JUNCTION-ENTER-F
+Compiling routine: TUBE-JUNCTION-F
+Compiling routine: RED-TUBECAR-OBJECT-F
+Compiling routine: RED-TUBECAR-DOOR-F
+Compiling routine: BROWN-TUBECAR-OBJECT-F
+Compiling routine: TUBECAR-F
+Compiling routine: BROWN-TUBECAR-DOOR-F
+Compiling routine: TUBE-SIGN-F
+Compiling routine: I-RED-TUBE
+Compiling routine: RED-TUBECAR-ENTER-F
+Compiling routine: RED-TUBECAR-EXIT-F
+Compiling routine: I-BROWN-TUBE
+Compiling routine: BROWN-TUBECAR-ENTER-F
+Compiling routine: BROWN-TUBECAR-EXIT-F
+Compiling routine: I-CITY-NOISES
+Compiling routine: I-MUG
+Compiling routine: KEY-F
+Compiling routine: RATION-CARD-F
+Compiling routine: SLOT-F
+Compiling routine: SPEAR-CARRIER-F
+Input file: SYNTAX.ZIL
+Input file: VERBS.ZIL
+Compiling routine: V-VERBOSE
+Compiling routine: V-BRIEF
+Compiling routine: V-SUPER-BRIEF
+Compiling routine: V-DIAGNOSE
+Compiling routine: V-INVENTORY
+Compiling routine: V-QUIT
+Compiling routine: V-RESTART
+Compiling routine: FINISH
+Compiling routine: YES?
+Compiling routine: V-RESTORE
+Compiling routine: V-SAVE
+Compiling routine: V-SCRIPT
+Compiling routine: V-UNSCRIPT
+Compiling routine: COPR-NOTICE
+Compiling routine: V-VERSION
+Compiling routine: V-$VERIFY
+Compiling routine: V-$REFRESH
+Compiling routine: REFRESH-STATUS-LINE
+Compiling routine: V-$COMMAND-FILE
+Compiling routine: V-$RANDOM
+Compiling routine: V-$RECORD
+Compiling routine: V-$UNRECORD
+Compiling routine: V-ABORT
+Compiling routine: V-ABORT-OBJECT
+Compiling routine: V-ALARM
+Compiling routine: V-ANSWER
+Compiling routine: ANSWER-SAY-SHARE
+Compiling routine: NEXT-WORD-YES?
+Compiling routine: V-ASK-ABOUT
+Compiling routine: V-ASK-NO-ONE-FOR
+Compiling routine: V-ASK-FOR
+Compiling routine: V-BITE
+Compiling routine: PRE-BOARD
+Compiling routine: V-BOARD
+Compiling routine: PRE-BUY
+Compiling routine: V-BUY
+Compiling routine: V-BUY-WITH
+Compiling routine: V-CALL
+Compiling routine: V-CHASTISE
+Compiling routine: V-CLIMB-DOWN
+Compiling routine: V-CLIMB-FOO
+Compiling routine: V-CLIMB-ON
+Compiling routine: V-CLIMB-OVER
+Compiling routine: V-CLIMB-UP
+Compiling routine: V-CLOSE
+Compiling routine: V-COMFORT
+Compiling routine: V-COUNT
+Compiling routine: V-CROSS
+Compiling routine: V-CRY
+Compiling routine: V-CUT
+Compiling routine: V-DANCE
+Compiling routine: V-DATE
+Compiling routine: V-DIG
+Compiling routine: V-DISEMBARK
+Compiling routine: V-DISPLAY
+Compiling routine: V-DRINK
+Compiling routine: V-DRINK-FROM
+Compiling routine: PRE-DROP
+Compiling routine: V-DROP
+Compiling routine: V-EAT
+Compiling routine: V-ENTER
+Compiling routine: V-EXAMINE
+Compiling routine: UNSEEABLE-OBJECT
+Compiling routine: V-EXIT
+Compiling routine: V-FEED
+Compiling routine: V-FILL
+Compiling routine: V-FIND
+Compiling routine: V-FIRST-LOOK
+Compiling routine: V-FLUSH
+Compiling routine: V-FOLLOW
+Compiling routine: I-UNFOLLOW
+Compiling routine: PRE-GIVE
+Compiling routine: V-GIVE
+Compiling routine: V-HANG
+Compiling routine: V-HELLO
+Compiling routine: V-HELP
+Compiling routine: V-HIDE
+Compiling routine: V-HOLD
+Compiling routine: V-INCOMPLETE-QUESTION
+Compiling routine: V-KICK
+Compiling routine: V-KILL
+Compiling routine: V-KNOCK
+Compiling routine: V-KISS
+Compiling routine: V-LEAP
+Compiling routine: V-LEAVE
+Compiling routine: V-LIE-DOWN
+Compiling routine: V-LISTEN
+Compiling routine: V-LOCK
+Compiling routine: V-LOOK
+Compiling routine: V-LOOK-BEHIND
+Compiling routine: V-LOOK-DOWN
+Compiling routine: V-LOOK-INSIDE
+Compiling routine: V-LOOK-UNDER
+Compiling routine: V-LOOK-UP
+Compiling routine: V-LOWER
+Compiling routine: V-MACO
+Compiling routine: V-MOVE
+Compiling routine: V-MUNG
+Compiling routine: V-NO
+Compiling routine: V-OFF
+Compiling routine: V-ON
+Compiling routine: V-OPEN
+Compiling routine: V-PAY-FOR
+Compiling routine: V-PCAF
+Compiling routine: V-PEOF
+Compiling routine: V-PICK
+Compiling routine: V-PLAY
+Compiling routine: V-PLAY-WITH
+Compiling routine: V-POINT
+Compiling routine: V-POUR
+Compiling routine: V-PPCC
+Compiling routine: V-PRAY
+Compiling routine: V-PUSH
+Compiling routine: PRE-PUT
+Compiling routine: V-PUT
+Compiling routine: V-PUT-AWAY
+Compiling routine: V-PUT-BEHIND
+Compiling routine: V-PUT-ON
+Compiling routine: V-PUT-UNDER
+Compiling routine: V-RAPE
+Compiling routine: V-RAISE
+Compiling routine: V-RCRO
+Compiling routine: V-REACH-IN
+Compiling routine: PRE-READ
+Compiling routine: V-READ
+Compiling routine: V-RECORD-ON
+Compiling routine: V-RECORD-OFF
+Compiling routine: V-REMOVE
+Compiling routine: V-REPLY
+Compiling routine: V-REPORT
+Compiling routine: V-ROB
+Compiling routine: V-ROFF
+Compiling routine: V-SAY
+Compiling routine: V-SEARCH
+Compiling routine: V-SET
+Compiling routine: V-SGIVE
+Compiling routine: V-SHAKE
+Compiling routine: V-SHAKE-WITH
+Compiling routine: V-SHOOT
+Compiling routine: V-SHOW
+Compiling routine: V-SHUT-OFF
+Compiling routine: V-SIT
+Compiling routine: V-SIT-NEXT-TO
+Compiling routine: V-SKIP
+Compiling routine: V-SLEEP
+Compiling routine: END-CURFEW
+Compiling routine: V-SMELL
+Compiling routine: V-SMILE
+Compiling routine: V-SPUT-ON
+Compiling routine: V-SQUEEZE
+Compiling routine: V-SSHOOT
+Compiling routine: V-SSHOW
+Compiling routine: V-SSHUT-OFF
+Compiling routine: V-STAND
+Compiling routine: V-STAND-ON
+Compiling routine: V-STATUS
+Compiling routine: V-STURN-ON
+Compiling routine: V-SWIM
+Compiling routine: PRE-TAKE
+Compiling routine: V-TAKE
+Compiling routine: V-TAKE-OFF
+Compiling routine: V-TELL
+Compiling routine: V-TELL-ABOUT
+Compiling routine: V-THANK
+Compiling routine: V-THROUGH
+Compiling routine: PRE-THROW
+Compiling routine: V-THROW
+Compiling routine: V-THROW-OFF
+Compiling routine: V-TIE
+Compiling routine: V-TIME
+Compiling routine: V-TOUCH
+Compiling routine: V-TRANSMIT
+Compiling routine: V-TURN
+Compiling routine: V-TURN-ON
+Compiling routine: V-UNLOCK
+Compiling routine: V-UNTIE
+Compiling routine: V-WAIT
+Compiling routine: V-WAIT-FOR
+Compiling routine: V-WAIT-UNTIL
+Compiling routine: V-WALK
+Compiling routine: V-WALK-AROUND
+Compiling routine: V-WALK-OUT
+Compiling routine: V-WALK-TO
+Compiling routine: V-WALK-UNDER
+Compiling routine: V-WASH
+Compiling routine: V-WAVE
+Compiling routine: V-WAVE-AT
+Compiling routine: V-WEAR
+Compiling routine: V-WHAT
+Compiling routine: V-WHERE
+Compiling routine: V-WHO
+Compiling routine: V-WNNF
+Compiling routine: V-WRITE
+Compiling routine: V-YELL
+Compiling routine: I-YES-NO
+Compiling routine: V-YES
+Compiling routine: ITAKE
+Compiling routine: IDROP
+Compiling routine: CCOUNT
+Compiling routine: WEIGHT
+Compiling routine: DESCRIBE-ROOM
+Compiling routine: CROWD-DESC
+Compiling routine: I-DESCRIBE-CROWDS
+Compiling routine: DESCRIBE-OBJECTS
+Compiling routine: DESCRIBE-OBJECT
+Compiling routine: PRINT-CONT
+Compiling routine: PRINT-CONTENTS
+Compiling routine: FIRSTER
+Compiling routine: DESCRIBE-VEHICLE
+Compiling routine: GOTO
+Compiling routine: JIGS-UP
+Compiling routine: MOBY-VERB?
+Compiling routine: ACCESSIBLE?
+Compiling routine: VISIBLE?
+Compiling routine: META-LOC
+Compiling routine: OTHER-SIDE
+Compiling routine: HELD?
+Compiling routine: SEE-INSIDE?
+Compiling routine: GLOBAL-IN?
+Compiling routine: FIND-IN
+Compiling routine: LOC-CLOSED
+Compiling routine: RIGHT-HERE
+Compiling routine: DO-WALK
+Compiling routine: CHANGE-OBJECT
+Compiling routine: CLEAR-BUF
+Compiling routine: ROB
+Compiling routine: HACK-HACK
+Compiling routine: ARTICLE
+Compiling routine: PLURAL
+Input file: GLOBALS.ZIL
+Compiling routine: NOT-HERE-OBJECT-F
+Compiling routine: PRSO-VERB?
+Compiling routine: PRSI-VERB?
+Compiling routine: FIND-NOT-HERE
+Compiling routine: NOT-HERE-PRINT
+Compiling routine: GROUND-F
+Compiling routine: WALLS-F
+Compiling routine: CEILING-F
+Compiling routine: HALLWAY-F
+Compiling routine: BUILDING-F
+Compiling routine: STAIRS-F
+Compiling routine: UNOPENABLE-DOOR-F
+Compiling routine: SLEEP-F
+Compiling routine: SMOKE-F
+Compiling routine: PLAY-F
+Compiling routine: SKY-F
+Compiling routine: NIGHT-F
+Compiling routine: DAY-F
+Compiling routine: HANDS-F
+Compiling routine: HEAD-F
+Compiling routine: PLAYER-F
+Compiling routine: YOURSELF-F
+Compiling routine: ME-F
+Compiling routine: MY-NAME-F
+Compiling routine: CONVERSATION-F
+Compiling routine: MUSIC-F
+Compiling routine: DOORWAY-F
+Compiling routine: GLOBAL-ROOM-F
+Compiling routine: ALLEY-OBJECT-F
+Compiling routine: STREET-F
+Compiling routine: PEOPLE-F
+Compiling routine: PEOPLE-IN-BAR-DESC
+Compiling routine: PARENTS-F
+Compiling routine: MINDEX-F
+Compiling routine: GENERIC-APARTMENT-F
+Compiling routine: GENERIC-MITCHELL-F
+Compiling routine: GENERIC-BOOK-F
+Compiling routine: GENERIC-TUBECAR-F
+Compiling routine: GENERIC-SODA-F
+Compiling routine: GENERIC-FOOD-F
+Compiling routine: GENERIC-PERELMAN-F
+Compiling routine: GENERIC-NEWSPAPER-F
+Compiling routine: GENERIC-BED-F
+Compiling routine: GENERIC-GUARD-F
+Compiling routine: GENERIC-ROOM-F
+Compiling routine: GENERIC-KITCHEN-F
+Compiling routine: GENERIC-OFFICIAL-F
+Compiling routine: ROCKVIL-OBJECT-F
+Compiling routine: CANT-BUY
+Compiling routine: TOO-POOR
+Compiling routine: DEBIT
+Compiling routine: VENDING
+Compiling routine: CLOSING-TIME
+Compiling routine: CURFEW-CLOSE
+Compiling routine: RESTAURANT-CLOSES
+Compiling routine: SHOP-CLOSES
+Compiling routine: CLOSED-PRINT
+Compiling routine: SUBURBS-ENTER-F
+Compiling routine: OFFICE-BUILDING-ENTER-F
+Compiling routine: APARTMENT-ENTER-F
+Compiling routine: DESCRIBE-APARTMENT-VESTIBULE
+Compiling routine: BUZZERS-F
+Compiling routine: MAILBOXES-F
+Compiling routine: PICTUREPHONE-F
+Compiling routine: LABEL-F
+Compiling routine: GRAFFITI-F
+Compiling routine: GLOBAL-SIGN-F
+Compiling routine: GLOBAL-WINDOW-F
+Compiling routine: GLASS-F
+Compiling routine: SEAT-F
+Compiling routine: CHAIR-F
+Compiling routine: GLOBAL-TABLE-F
+Compiling routine: PARK-OBJECT-F
+Compiling routine: MUSEUM-OBJECT-F
+Compiling routine: FIELD-F
+Compiling routine: FENCE-F
+Compiling routine: GATE-F
+Compiling routine: COUNTER-F
+Compiling routine: SHELVES-F
+Compiling routine: FACTORY-OBJECT-F
+Compiling routine: STORE-OBJECT-F
+Compiling routine: HOTEL-OBJECT-F
+Compiling routine: CHURCH-OBJECT-F
+Compiling routine: SCHOOL-OBJECT-F
+Compiling routine: CONSTRUCTION-OBJECT-F
+Compiling routine: VACANT-LOT-F
+Compiling routine: TUNNEL-F
+Compiling routine: EXHIBITS-F
+Compiling routine: SKYCAR-F
+Compiling routine: CARLOT-F
+Compiling routine: CHILDREN-F
+Compiling routine: WOMAN-F
+Compiling routine: WATER-F
+Compiling routine: RESERVOIR-F
+Compiling routine: RIVER-ENTER-F
+Compiling routine: RIVER-F
+Compiling routine: IN-RESTAURANT?
+Compiling routine: RESTAURANT-OBJECT-F
+Compiling routine: INIT-STATUS-LINE
+Compiling routine: INVERSE-LINE
+Compiling routine: PRINT-SPACES
+Compiling routine: CONTINUE
+Compiling routine: STATUS-LINE
+Compiling routine: TIME-PRINT
+Compiling routine: JUSTIFY-TIME-PRINT
+Compiling routine: AM-PM-PRINT
+Compiling routine: TITLE-PRINT
+Compiling routine: TURN-RECORD-OFF
+Compiling routine: ERR
+Compiling routine: CANT-SEE
+Compiling routine: DISCONNECTED
+Compiling routine: MILE-AWAY
+Compiling routine: FROM-HERE
+Compiling routine: TELL-ME-HOW
+Compiling routine: OF-COURSE
+Compiling routine: ADDRESS-DIRECTLY
+Compiling routine: CLOTHES-BUDGET
+Compiling routine: FURNITURE-REMOVED
+Compiling routine: PERELMAN-WALKS-IN-WITH-COFFEE
+Input file: PRISM.ZIL
+Compiling routine: PERELMAN-LEAVES-VIEW
+Compiling routine: PERELMAN-RETURNS-TO-VIEW
+Compiling routine: I-MESSAGE-C
+Compiling routine: I-MESSAGE-D
+Compiling routine: I-MESSAGE-E
+Compiling routine: I-MESSAGE-M
+Compiling routine: I-MESSAGE-Q
+Compiling routine: I-MESSAGE-Z
+Compiling routine: I-MESSAGE-Y
+Compiling routine: NAME-MESSAGE
+Compiling routine: UPDATE-LIBRARY-BOX
+Compiling routine: SIMULATION-CHECK
+Compiling routine: PSYCH-CHECK
+Compiling routine: RECORD-BUFFER-F
+Compiling routine: SCORE
+Compiling routine: LIBRARY-ROOM-F
+Compiling routine: LIBRARY-MODE-F
+Compiling routine: LIBRARY-BOX
+Compiling routine: ERASE-CURSOR
+Compiling routine: NEW-CURSOR
+Compiling routine: LIBRARY-ACTION
+Compiling routine: NEXT-ITEM
+Compiling routine: PREVIOUS-ITEM
+Compiling routine: TELL-CURRENT
+Compiling routine: MESSAGE-C-F
+Compiling routine: MESSAGE-D-F
+Compiling routine: MESSAGE-Z-F
+Compiling routine: MESSAGE-Y-F
+Compiling routine: WARREN-SHARE
+Compiling routine: SLEEP-MODE-F
+Compiling routine: SIM-SLEEP
+Compiling routine: OUTLETS-F
+Compiling routine: COMM-MODE-F
+Compiling routine: CONTROL-CENTER-OBJECT-F
+Compiling routine: CONTROL-CENTER-F
+Compiling routine: CC-STAFFER-F
+Compiling routine: CC-PRINTOUT-F
+Compiling routine: COMPUTER-TERMINAL-F
+Compiling routine: ROOFTOP-F
+Compiling routine: RUSH-HOUR
+Compiling routine: PROTRUSIONS-F
+Compiling routine: OFFICE-F
+Compiling routine: OFFICE-OBJECT-F
+Compiling routine: PERELMAN-DESK-F
+Compiling routine: ITEM-IN-PACKAGE-F
+Compiling routine: STACKS-OF-PAPERS-F
+Compiling routine: COFFEE-F
+Compiling routine: I-FIRST-SIMULATION-RESULT
+Compiling routine: PERELMAN-SHARE
+Compiling routine: PERELMAN-F
+Compiling routine: CAFETERIA-F
+Compiling routine: CAFETERIA-TABLE-DESC
+Compiling routine: CAFETERIA-OBJECT-F
+Compiling routine: CORE-F
+Compiling routine: AIR-CONDITIONING-UNIT-F
+Compiling routine: VENT-F
+Compiling routine: NEWS-F
+Compiling routine: DAY-16-NEWS
+Compiling routine: DAY-17-NEWS
+Compiling routine: DAY-19-NEWS
+Compiling routine: WEATHER-SHARE
+Compiling routine: OMNIFABB-COMMERCIAL
+Compiling routine: NOMACOLD-COMMERCIAL
+Compiling routine: SUPERMACE-COMMERCIAL
+Compiling routine: SUDO-SHRIMP-COMMERCIAL
+Compiling routine: MIRACLE-WARE-COMMERCIAL
+Compiling routine: PLASTIQUE-COMMERCIAL
+Compiling routine: JOYBOOTH-COMMERCIAL
+Compiling routine: SPARKLE-OIL-COMMERCIAL
+Compiling routine: MEXICO-COMMERCIAL
+Compiling routine: MOVIE-COMMERCIAL
+Compiling routine: INTERFACE-MODE-F
+Compiling routine: PORT-LIST-F
+Compiling routine: HVAC-CONTROLLER-F
+Compiling routine: ON-OFF
+Compiling routine: HVAC-KLUDGE
+Compiling routine: SECTOR-CHECK
+Compiling routine: AFFIRMATIVE
+Compiling routine: JANITORIAL-CONTROLLER-F
+Compiling routine: JANITORIAL-FUNCTION-CHECK
+Compiling routine: NUMERIC-FORM
+Compiling routine: ADJUSTMENT-CONFIRMED
+Compiling routine: TRAFFIC-COMPUTER-F
+Compiling routine: RUSH-HOUR-CHECK
+Compiling routine: SIMULATION-CONTROLLER-F
+Compiling routine: SIM-STATUS
+Compiling routine: WEATHER-COMPUTER-F
+Compiling routine: WNN-FEEDER-F
+Compiling routine: CURRENT-FEED-F
+Compiling routine: AUDITING-SYSTEM-F
+Compiling routine: I-INTERFACE-CHANGE
+Compiling routine: SIMULATION-MODE-F
+Compiling routine: SECURITY-CHECK
+Compiling routine: SIMULATION-BASED
+Compiling routine: I-SIMULATION
+Compiling routine: SIMULATIONS-AVAILABLE
+Compiling routine: GRIMWOLD-DESCFCN
+Compiling routine: GRIMWOLD-F
+Compiling routine: I-MESSAGE-X
+Compiling routine: CHAPTER-PRINT
+Compiling routine: I-VIEW
+Compiling routine: I-RECORDINGS-VIEWED
+Compiling routine: PARTIAL
+Compiling routine: QUITE-ENOUGH
+Compiling routine: NEARLY-ENOUGH
+Compiling routine: QUITE-NEARLY
+Compiling routine: I-PERELMAN-RETURNS
+Compiling routine: I-SEIGE
+Compiling routine: I-SABOTAGE
+Compiling routine: SABOTEURS-F
+Compiling routine: I-OPEN-WINDOW
+Compiling routine: RYDER-F
+Compiling routine: I-RYDER
+Compiling routine: PERELMAN-NOTICES
+Compiling routine: I-WIN
+Compiling routine: I-LOSE
+Compiling routine: END-IT
+Input file: APARTMENT.ZIL
+Compiling routine: IN-APARTMENT?
+Compiling routine: APARTMENT-OBJECT-F
+Compiling routine: LIVING-ROOM-OBJECT-F
+Compiling routine: KITCHEN-OBJECT-F
+Compiling routine: BEDROOM-OBJECT-F
+Compiling routine: BATHROOM-OBJECT-F
+Compiling routine: PARKVIEW-APARTMENTS-OBJECT-F
+Compiling routine: PARKVIEW-APARTMENTS-F
+Compiling routine: MY-BUZZER-F
+Compiling routine: MY-MAILBOX-F
+Compiling routine: PARKVIEW-DOOR-F
+Compiling routine: INNER-LOBBY-ENTER-F
+Compiling routine: PARKVIEW-HALL-F
+Compiling routine: HALL-NEAR-YOUR-APARTMENT-EXIT-F
+Compiling routine: APARTMENT-DOOR-F
+Compiling routine: LIVING-ROOM-F
+Compiling routine: RAID-MESS-DESC
+Compiling routine: APARTMENT-EXIT-F
+Compiling routine: WORD-PROCESSOR-F
+Compiling routine: EASEL-F
+Compiling routine: EASEL-DESC
+Compiling routine: PAINTING-F
+Compiling routine: PARTITION-F
+Compiling routine: PARTITION-DESCFCN
+Compiling routine: MITCHELL-DESCFCN
+Compiling routine: MITCHELL-F
+Compiling routine: HOMEWORK-F
+Compiling routine: LOGIC-GAME-F
+Compiling routine: APARTMENT-WINDOW-F
+Compiling routine: KITCHEN-F
+Compiling routine: SALAD-F
+Compiling routine: SANDWICH-F
+Compiling routine: FORMULA-F
+Compiling routine: SINK-F
+Compiling routine: DISHES-F
+Compiling routine: SODA-F
+Compiling routine: RANDOM-FOOD-F
+Compiling routine: BEDROOM-F
+Compiling routine: BED-F
+Compiling routine: BUREAU-F
+Compiling routine: BATHROOM-F
+Compiling routine: TOILET-F
+Compiling routine: SHOWER-F
+Compiling routine: JILL-F
+Compiling routine: JILL-DESCFCN
+Compiling routine: PUT-JILL-IN-THE-RIGHT-PLACE
+Compiling routine: JILL-BOOK-F
+Compiling routine: CRIB-F
+Compiling routine: TOY-F
+Compiling routine: BABY-F
+Compiling routine: NO-PLACE-FOR-BABY
+Compiling routine: I-MITCHELL-RAID
+Compiling routine: SOLARIUM-OBJECT-F
+Compiling routine: PATIO-OBJECT-F
+Compiling routine: PATIO-F
+Compiling routine: FIREPLACE-F
+Compiling routine: EPILOGUE-LIVING-ROOM-F
+Compiling routine: DINING-ROOM-OBJECT-F
+Compiling routine: TUB-F
+Compiling routine: DEN-OBJECT-F
+Compiling routine: ENTERTAINMENT-CENTER-F
+Compiling routine: SKYCAB-OBJECT-F
+Compiling routine: VIEWSCREEN-F
+Compiling routine: RECEIVER-STATION-F
+Compiling routine: CULTURAL-CENTER-F
+Vocabulary: 1813
+Prepositions: 21
+	 UP
+	 DOWN
+	 AROUND
+	 UNDER
+	 IN
+	 OUT
+	 ON
+	 THROUGH
+	 WITH
+	 TO
+	 NEXT
+	 AWAY
+	 AT
+	 ACROSS
+	 BEHIND
+	 FROM
+	 OFF
+	 OVER
+	 FOR
+	 ABOUT
+Objects: 609
+	 SOLARIUM-OBJECT
+	 SOLARIUM
+	 PATIO-OBJECT
+	 PATIO
+	 FIREPLACE
+	 EPILOGUE-LIVING-ROOM
+	 DINING-ROOM-OBJECT
+	 BAMBOO-SCREEN
+	 MASTER-BEDROOM
+	 DINING-ROOM
+	 EPILOGUE-KITCHEN
+	 FOYER
+	 DEN-OBJECT
+	 EPILOGUE-BATHROOM
+	 TUB
+	 DEN
+	 ENTERTAINMENT-CENTER
+	 GUEST-ROOM
+	 SKYCAB
+	 SKYCAB-OBJECT
+	 VIEWSCREEN
+	 RECEIVER-STATION
+	 CULTURAL-CENTER
+	 AIR-CONDITIONING-UNIT
+	 CAGES
+	 RAILROAD-TRACKS
+	 SKYCAR-LOT-1
+	 BROWN-TUBECAR-DOOR
+	 COOLING
+	 SKYBUS
+	 CLAVE
+	 MOVIE
+	 MACHINERY
+	 PRISM-INTERFACES-DIRECTORY
+	 ALI-BUILDING
+	 LAUNDROMAT
+	 DECODER
+	 SKYCAR
+	 PEDESTAL
+	 CHURCH-SKYCOPTER
+	 SKYCAR-LOT-3
+	 FOUNTAIN
+	 ELM-AND-KENNEDY
+	 HALLEY-STATUE
+	 SMOKE
+	 CLOTHES
+	 CONSTRUCTION-SITE-3
+	 VIBRAMAT
+	 ZOO-OBJECT
+	 PARK-UNDERPASS
+	 SKYCAR-LOT-5
+	 KENNEDY-PARK
+	 LIBRARY-MODE
+	 WALLS
+	 BOOKSTORE-OBJECT
+	 BURGER-MEISTER
+	 CHURCH-OBJECT
+	 CRIMINAL
+	 TUBE-AT-AIRPORT
+	 ROCKVIL-HIGH
+	 STOCK-EXCHANGE-OBJECT
+	 GRAFFITI
+	 OVERCOAT
+	 IT
+	 BROWN-TUBECAR-OBJECT
+	 UNIVERSITY-HEIGHTS
+	 ALPHA-SECTOR
+	 DRIVERS-LICENSE
+	 SOUP-KITCHEN
+	 JAIL-OBJECT
+	 GLOBAL-OBJECTS
+	 RACKS
+	 SKY
+	 BASE-GATE
+	 SKYLIGHT
+	 SKYCAR-LOT-7
+	 SCARF
+	 MESSAGE-Q
+	 COMM-ROOM
+	 OTHER-LIQUOR
+	 SPACEPORT
+	 HALLEY-ESTATES-OBJECT
+	 CARD-CATALOG-CARD
+	 YOURSELF
+	 AIRPORTWAY-AND-RIVER
+	 PLAY
+	 SERVICE-STATION-OBJECT
+	 TRAIN-STATION
+	 SPEAR-CARRIER
+	 NOON
+	 AUDITORIUM
+	 OFFICE
+	 TICKET-SELLER
+	 DUCK-POND
+	 CC-PRINTOUT
+	 DRUG-STORE
+	 FIELD
+	 PIER
+	 CHURCH-OFFICIAL
+	 DENTAL-SCHOOL
+	 HALLEY-AND-UNIVERSITY
+	 MUSIC
+	 POLICEMAN
+	 TRAFFIC-COMPUTER
+	 SWEATER
+	 PRISM-MESSAGES-DIRECTORY
+	 CHAIR
+	 PARENTS
+	 RESIGNATION
+	 HEAD
+	 HUANG-HALL-OBJECT
+	 GATE
+	 LOCAL-GLOBALS
+	 FORTZMAN
+	 PLAYER
+	 DRYERS
+	 WATER-TOWER-OBJECT
+	 MAIN-LIBRARY-OBJECT
+	 BOOKSTORE
+	 PROFESSOR-OFFICES
+	 MOUNT-TAKEOVER
+	 RAILROAD-YARD
+	 CAFETERIA
+	 REPORT-BUFFER
+	 HEADSET
+	 FIRECOPTER
+	 HIGHWAY
+	 RED-TUBECAR-OBJECT
+	 POWER-STATION-ENTRANCE
+	 MUSEUM-OBJECT
+	 PRISM-NAME
+	 OFFICIAL-SNACK
+	 POOL
+	 RAILROAD-MUSEUM
+	 MAIN-AND-CHURCH
+	 ROOMS
+	 ZOO
+	 ST-MICHAELS
+	 BETA-SECTOR
+	 DRUGS
+	 AQUARIUM-AND-RIVER
+	 LAWN
+	 PROTRUSIONS
+	 STEW
+	 CEMETERY-OBJECT
+	 WOMAN
+	 FLOORS
+	 ELM-AND-RIVER
+	 GLOBAL-SIGN
+	 INTERCHANGE-OBJECT
+	 JANITORIAL-INSTRUCTIONS
+	 GROCERIES
+	 CARD-CATALOG
+	 MESSAGE-C
+	 WARREN
+	 BROWN-TUBECAR
+	 POWER-STATION-OBJECT
+	 VACANT-LOT
+	 MAP
+	 BODANSKI-SQUARE
+	 AQUARIUM-AND-PARK
+	 HEALTH-CENTER
+	 MAIN-STREET-BRIDGE
+	 ME
+	 CREDIT-CARD
+	 COMM-MODE
+	 RESIGNATION-LETTER
+	 PERELMAN-TERMINAL
+	 TUBE-SIGN
+	 FACTORY-ENTRANCE
+	 DUCKS
+	 HALLEY-MUSEUM
+	 HEADSTONES
+	 RAILROAD-BRIDGE
+	 COUNTER
+	 UNOPENABLE-DOOR
+	 LOTTD
+	 LIQUOR-STORE
+	 BOOKS
+	 STADIUM-LOT-B
+	 FYLA
+	 TURTLE
+	 HEIMAN-WORLD-OBJECT
+	 RATION-CARD
+	 RIVER-AND-PARK
+	 ROCKVIL-REFORMATORY
+	 RED-TUBECAR
+	 STADIUM-OBJECT
+	 HOTEL-OBJECT
+	 EZZIS-BAR
+	 POST-OFFICE-OBJECT
+	 POST-OFFICE
+	 MESSAGE-B
+	 CRIME
+	 KEY
+	 TUBE-AT-FACTORY
+	 HANDS
+	 HEATING
+	 AIRPORT-SIGN
+	 HVAC-INSTRUCTIONS
+	 SYMPHONY-HALL-OBJECT
+	 ANNEX-OBJECT
+	 DAWN
+	 PARK-OBJECT
+	 CITY-DUMP
+	 ROCKVIL-UNIVERSITY
+	 MORNING-START
+	 MORNING-END
+	 EVENING-START
+	 EVENING-END
+	 SIMULATION-CONTROLLER
+	 WEATHER-COMPUTER
+	 WNN-FEEDER
+	 CURRENT-FEED
+	 TRANSMITTER
+	 AUDITING-SYSTEM
+	 AUDIT-PERCENT
+	 SIMULATION-ROOM
+	 SIMULATION-MODE
+	 GRIMWOLD
+	 MESSAGE-X
+	 SABOTEURS
+	 TOTE-BAGS
+	 RYDER
+	 PLAN
+	 APARTMENT-OBJECT
+	 LIVING-ROOM-OBJECT
+	 KITCHEN-OBJECT
+	 BEDROOM-OBJECT
+	 BATHROOM-OBJECT
+	 PARKVIEW-APARTMENTS
+	 MY-BUZZER
+	 MY-MAILBOX
+	 PARKVIEW-DOOR
+	 PARKVIEW-HALL
+	 APARTMENT-DOOR
+	 LIVING-ROOM
+	 APARTMENT-WINDOW
+	 WORD-PROCESSOR
+	 EASEL
+	 PAINTING
+	 PARTITION
+	 MITCHELL
+	 HOMEWORK
+	 LOGIC-GAME
+	 COUCH
+	 KITCHEN
+	 SINK
+	 DINETTE-SET
+	 SALAD
+	 TURKEY-SANDWICH
+	 HAM-SANDWICH
+	 FORMULA
+	 DISHES
+	 REFRIGERATOR
+	 SODA
+	 GRANOLA-CLUSTER
+	 APPLE
+	 BEDROOM
+	 BED
+	 BUREAU
+	 BATHROOM
+	 TOILET
+	 SHOWER
+	 JILL
+	 JILL-BOOK
+	 CRIB
+	 TOY
+	 BABY
+	 MUSEUM-ENTRANCE
+	 AQUARIUM
+	 DUMP-OBJECT
+	 CHUN-BUILDING
+	 MEAL
+	 HOSPITAL
+	 FOURTH-FLOOR
+	 SKYBUS-TERMINAL
+	 GLASS
+	 BUZZERS
+	 COLONIAL-HOTEL
+	 PERELMAN-DESK
+	 NATIONAL-GUARDSMAN
+	 MESSAGE-M
+	 RAV
+	 NIGHT
+	 RUSTY-CROSS
+	 SLEEP-ROOM
+	 HALLEY-PARK-EAST
+	 LIBYAN-ECONOMY
+	 TAX-STUDY
+	 GUN-SHOP-OBJECT
+	 VENT
+	 AQUARIUM-AND-KENNEDY
+	 WATERPOOL
+	 TRAFFIC-INSTRUCTIONS
+	 HALLEY-PARK-WEST
+	 LECTURE-HALL
+	 MESSAGE-A
+	 FOODVILLE-2
+	 JOYBOOTH
+	 WAREHOUSE-DOOR
+	 FIRETRUCK
+	 FIREHOUSE-OBJECT
+	 SILICORP-BUILDING
+	 NEWS-BUFFER
+	 WICKER-AND-PIER
+	 RAMP
+	 LIQUOR-STORE-OBJECT
+	 BSF-GUARDS
+	 SPACEPORT-GATE
+	 SPARE-PARTS
+	 SCHOOL-BOOKSTORE
+	 MILKSHAKE
+	 BENCH
+	 RANDU
+	 THE-COACHMAN
+	 MALL-OBJECT
+	 STREET
+	 WASTE
+	 ANIMAL
+	 MOLD
+	 INFOTECH-BUILDING
+	 CITY-HALL-OBJECT
+	 ATRIUM
+	 CONTROL-CENTER
+	 ROYS-PAGODA
+	 INTERCHANGE
+	 CHURCH-ENTRANCE
+	 STUDENT-UNION
+	 TOWNHOUSE
+	 DUNBARS-OBJECT
+	 TUNNEL
+	 RIVER
+	 UNIVERSITY-CAFETERIA
+	 MAIN-AND-WICKER
+	 UNIVERSITY-HEIGHTS-OBJECT
+	 ESTHER
+	 MENU
+	 COUNTRYSIDE
+	 STADIUM-STANDS
+	 BSF-FORMATION
+	 LIBRARY-ROOM
+	 COURTHOUSE-OBJECT
+	 ALLEY
+	 TANK
+	 CONSTRUCTION-SITE-4
+	 HEALTH-CENTER-OBJECT
+	 VELDRAN-HOTEL
+	 MAIN-AND-KENNEDY
+	 SLEEP-MODE
+	 PROSTITUTE
+	 MY-NAME
+	 FOODVILLE-1
+	 HVAC-CONTROLLER
+	 MINDEX
+	 SACK
+	 MIDLAND-AND-RIVER
+	 PICTUREPHONE
+	 BANK
+	 SOUTHWAY-AND-KENNEDY
+	 ROCKVIL-OBJECT
+	 RESTAURANT-TABLE
+	 CHURCH-STREET-CITY-OBJECT
+	 PLAN.CRITICISMS
+	 SIMULATION-INSTRUCTIONS
+	 STADIUM-LOT-C
+	 DOORWAY
+	 GOVERNMENT-OFFICIAL
+	 CEILING
+	 TUBE-STATION
+	 CONTROL-CENTER-OBJECT
+	 PICKFORD-THEATRE-OBJECT
+	 ROOFTOP
+	 BAR
+	 MAGAZINE
+	 ALARM
+	 SILVER-DOVE
+	 SLEEP
+	 SKYCAR-LOT-2
+	 CINEMA
+	 GARBAGE
+	 INTNUM
+	 TUBE-AT-HEIMAN
+	 BOOK
+	 RIVERSIDE-PARK
+	 CONSTRUCTION-SITE-5
+	 CAFETERIA-OBJECT
+	 SOUTHWAY-UNDERPASS
+	 PLAN-POPULARITY
+	 PIER-OBJECT
+	 STUDENT-UNION-OBJECT
+	 LIBRARY-UNIT
+	 MANTA-RAY
+	 NOT-HERE-OBJECT
+	 SKYCAR-LOT-4
+	 BURNED-OUT-AREA
+	 GROUND
+	 DAY
+	 STONES
+	 WATER
+	 CONVERSATION
+	 BANNED-TITLES-LIST
+	 BAR-STOOL
+	 MIDLAND-AND-CHURCH
+	 JOYBOOTH-BUTTON
+	 CLOSED-FACTORY
+	 INDUSTRIAL-PARK-OBJECT
+	 CARLOT
+	 SKYCAR-LOT-6
+	 BSF-BASE
+	 WATER-TOWER
+	 POLICE-STATION-OBJECT
+	 PARK-ENTRANCE
+	 JOYBOOTH-OBJECT
+	 ELM-UNDERPASS
+	 TERMINAL-BANKS
+	 TOOL
+	 LECTURE-HALL-OBJECT
+	 RIVER-AND-KENNEDY
+	 CEMETERY
+	 TIMBERS
+	 LABEL
+	 BANK-OBJECT
+	 NEWSPAPER
+	 SEAT
+	 BLANKET
+	 TUBE-AT-PARK
+	 BARKING
+	 ROCKVIL-MALL
+	 STAIRS
+	 VENTILATION
+	 MEMORY-BANKS
+	 FLOODLIGHT
+	 WAREHOUSE-1
+	 BEER
+	 PAMPHLET-RACK
+	 MESSAGE-Z
+	 HEIMAN-VILLAGE
+	 ROTATING
+	 ATHLETIC-FIELD
+	 RESTAURANT-OBJECT
+	 OFFICE-OBJECT
+	 DRUG-STORE-OBJECT
+	 HALLWAY
+	 VEST
+	 MOVIE-THEATRE-OBJECT
+	 ROCKVIL-STADIUM
+	 WASHERS
+	 STORE-OBJECT
+	 JANITORIAL-CONTROLLER
+	 AQUARIUM-UNDERPASS
+	 PLAN-DATA-DIRECTORY
+	 RIVER-BANK
+	 MAGAZINE-ARTICLE
+	 SLOT
+	 PARKVIEW-APARTMENTS-OBJECT
+	 MESSAGE-E
+	 NOTE
+	 SYMPHONY-HALL
+	 WEATHER-INSTRUCTIONS
+	 LIQUOR
+	 AIRPORT-TERMINAL-OBJECT
+	 SERVICE-STATION
+	 HUANG-HALL
+	 SHELVES
+	 TENEMENT-1
+	 CLASSROOMS
+	 ELM-AND-PARK
+	 CONSTRUCTION-OBJECT
+	 DORM
+	 PLAQUE
+	 TUBE-AT-BODANSKI
+	 POOL-HALL-OBJECT
+	 SOUVENIR
+	 BAR-OBJECT
+	 BOARDING-PLATFORM
+	 PERELMAN-PERSONAL-DIRECTORY
+	 TENEMENT-3
+	 MESSAGE-Y
+	 DUSK
+	 HARDWARE
+	 ROW-HOUSES
+	 LOUNGE
+	 CURRENT-EVENTS-DIRECTORY
+	 TENEMENT-2
+	 WICKER-AND-RIVER
+	 LAMP-POST
+	 SKYBUS-TERMINAL-OBJECT
+	 GUN-SHOP
+	 GUN
+	 SOUTHWAY-AND-RIVER
+	 MAIN-LIBRARY
+	 WALLET
+	 TUBE-AT-STADIUM
+	 WAREHOUSE-2
+	 NEWS
+	 TERMINAL
+	 COURTHOUSE
+	 CITY-HALL
+	 GOLD
+	 HARDWARE-STORE
+	 WELLS-THEATRE
+	 SCOTCH
+	 CRATE
+	 ANDERSON-DIRECTORY
+	 LIBRARY
+	 FIREHOUSE
+	 PICKFORD-THEATRE
+	 CC-STAFFER
+	 MESSAGE-D
+	 HARDWARE-STORE-OBJECT
+	 SOY-PATTY
+	 TRAIN-STATION-OBJECT
+	 SYMPHONY-ENTRANCE
+	 ALLEY-OBJECT
+	 GLOBAL-ROOM
+	 ZOO-ENTRANCE
+	 CENTRE-AND-KENNEDY
+	 PEREZ-TOWERS
+	 MARQUEE
+	 DUMP-ENTRANCE
+	 UNSHAVEN-MAN
+	 SCHOOL-OBJECT
+	 BLEACHERS
+	 POWER-STATION
+	 STOCK-EXCHANGE
+	 HOSPITAL-OBJECT
+	 COFFEE
+	 RECTORY-OBJECT
+	 CHURCH-STREET-PARK
+	 FENCE
+	 INTERFACE-ROOM
+	 GAMMA-SECTOR
+	 PEOPLE
+	 POOL-TABLE
+	 CHURCH-STREET-APARTMENTS
+	 RIVER-STREET-BRIDGE
+	 OUTLETS
+	 WAREHOUSE-OBJECT
+	 MAILBOXES
+	 BANNER
+	 DELTA-SECTOR
+	 TUBE-AT-UNIVERSITY
+	 TICKET
+	 FIRST-METHODIST-CHURCH
+	 ROCKVIL-CENTRE
+	 INDUSTRIAL-PARK-ENTRANCE
+	 CONSTRUCTION-SITE-1
+	 RECORD-BUFFER
+	 BEND
+	 SIMONS
+	 DORM-OBJECT
+	 JUKEBOX
+	 FISH
+	 GLOBAL-TABLE
+	 MAIN-AND-RIVER
+	 CAMPUS
+	 DUNBARS
+	 WELLS-THEATRE-OBJECT
+	 PAMPHLET
+	 POLICE-STATION
+	 BEAMS
+	 INDUSTRIAL-PARK-DRIVE
+	 ROOF
+	 NEWSPAPER-DISPENSER
+	 INTERFACE-MODE
+	 POOL-HALL
+	 BORDELLO-AD
+	 ROY
+	 PRICE
+	 STREET-BRIDGE
+	 DERRICOPTERS
+	 PLAN-ELEMENTS
+	 AUDITING-INSTRUCTIONS
+	 RED-TUBECAR-DOOR
+	 HOSPITAL-ANNEX
+	 EXHIBITS
+	 BATHROOMS
+	 HALLEY-AND-PARK
+	 JAIL-CELL
+	 PERELMAN
+	 PORT-LIST
+	 TUBE-JUNCTION
+	 AIRPORT-ENTRANCE
+	 RESERVOIR
+	 STATUE
+	 FACTORY-OBJECT
+	 CONSTRUCTION-SITE-2
+	 LIBRARY-ACCOUNT
+	 MIDNIGHT
+	 BUILDING
+	 PEN
+	 ELM-AND-UNIVERSITY
+	 SUPERMARKET
+	 GLOBAL-WINDOW
+	 CORE
+	 RYDER-SPEECHES
+	 SOUTHWAY-AND-PARK
+	 DESK
+	 TENEMENT-OBJECT
+	 HEIMAN-VILLAGE-OBJECT
+	 SKYCAR-FACTORY
+	 AIRPORT-GATE
+	 CLERKMATON
+	 AQUARIUM-OBJECT
+	 STACKS-OF-PAPERS
+	 WNN-INSTRUCTIONS
+	 STADIUM-LOT-A
+	 CHILDREN
+Properties: 26
+	 P?DESCFCN
+	 P?UP
+	 P?CAPACITY
+	 P?SCENE
+	 P?IN
+	 P?FDESC
+	 P?TEXT
+	 P?SDESC
+	 P?DOWN
+	 P?GENERIC
+	 P?LDESC
+	 P?SIZE
+	 P?ADJECTIVE
+	 P?SYNONYM
+	 P?OUT
+	 P?ACTION
+	 P?GLOBAL
+	 P?NW
+	 P?WEST
+	 P?SW
+	 P?SOUTH
+	 P?SE
+	 P?EAST
+	 P?NE
+	 P?NORTH
+Globals: 225
+	 SKYCAB-COUNTER
+	 P-ADJ
+	 RS-DESC
+	 RESERVE-LEXV
+	 P-ADJW
+	 CURRENT-FISCAL
+	 P-VTBL
+	 NEXT-SLEEP-DATE
+	 FOLLOW-FLAG
+	 NO-EXIT-FROM-APARTMENT
+	 WEATHER-TABLE
+	 LAST-ABE-TIME
+	 NEWSMAKER-NOOK
+	 YES-NO-FLAG
+	 HEAD-THROBS
+	 CANT-GO
+	 RESERVE-INBUF
+	 REFERRING
+	 VERBOSITY
+	 AGAIN-LEXV
+	 BROWN-POINTER
+	 P-PRSI
+	 OFFICIAL-LEAVES
+	 CONTACT
+	 P-CONT
+	 YEAR
+	 2051-CITY-NOISES
+	 COME-TO-MY-OFFICE
+	 P-ANAM
+	 P-WALK-DIR
+	 OOPS-TABLE
+	 RECOGNIZE
+	 P-MOBY-FOUND
+	 JUKEBOXES
+	 P-XNAM
+	 C-TABLE
+	 P-NAM
+	 SHORT-FIRST-SIMULATION
+	 P-OTBL
+	 P-NAMW
+	 L-MODE
+	 CLOCK-WAIT
+	 L-HERE
+	 BROWN-TABLE
+	 RED-TUBECAR-IN-STATION
+	 2061-SCORE
+	 L-RECORDING
+	 2081-RECORDED
+	 STOP-WAIT
+	 P-SLOCBITS
+	 P-ACLAUSE
+	 MY-WEEK
+	 REVIEWING-RECORDINGS
+	 P-BUTS
+	 RED-POINTER
+	 2071-RECORDED
+	 RECORDING
+	 P-PHR
+	 FINISHED-VIEWING
+	 P-END-ON-PREP
+	 2041-SECONDS
+	 2041-TENTHS
+	 2051-SECONDS
+	 2051-TENTHS
+	 2061-SECONDS
+	 2061-TENTHS
+	 2071-SECONDS
+	 2071-TENTHS
+	 2081-SECONDS
+	 2081-TENTHS
+	 FEED-BUFFER
+	 INTERFACE-CHANGE
+	 INTERFACE-WARNING
+	 OUTER-NUMBERS-TABLE
+	 INNER-NUMBERS-TABLE
+	 COLORS-TABLE
+	 SIM-LEVEL-TABLE
+	 COMPLETED-TASKS
+	 SIMULATING
+	 SYEAR
+	 SMONTH
+	 SDATE
+	 STIME
+	 RECORDING-TABLE
+	 GRIMWOLD-COUNTER
+	 PART-FLAG
+	 SEIGE
+	 SABOTAGE-COUNTER
+	 AIR-CONDITIONING-COUNTER
+	 SUFFOCATE-COUNTER
+	 RYDER-COUNTER
+	 PERELMAN-NOTICED
+	 RYDER-RECORDED
+	 LOSE-COUNTER
+	 MITCHELL-COUNTER
+	 JILL-NOT-SPOKEN-YET
+	 JILL-COUNTER
+	 APARTMENT-RAID-FLAG
+	 MITCHELL-NEWS-FLAG
+	 RAID-PROB
+	 MITCHELL-RAID-FLAG
+	 NOT-ACTIVE
+	 WASTES
+	 DESK-DESC
+	 P-NCN
+	 SILICORP-DESCRIPTION
+	 CURRENT-FILE
+	 WAITER-COUNTER
+	 COLUMN-TABLE
+	 CURRENT-DIRECTORY
+	 ALGEBRA
+	 IMPOSSIBLES
+	 CHUN-DESC
+	 2041-CITY-NOISES
+	 MODE
+	 MUGGED
+	 RIVER-DESC
+	 CHANGE-AGENTS
+	 RESERVE-PTR
+	 PRSI
+	 WILD-DOG-COUNTER
+	 LOW-DIRECTION
+	 BEGGAR-FLAG
+	 BOARDED-OVER
+	 HUNGER-WARNING
+	 HIGHLIGHT-CNT
+	 SPOTS-ACTIVE-LIGHT
+	 HO-HUM
+	 P-IT-OBJECT
+	 2051-SCORE
+	 STONING-FLAG
+	 MESSAGE-E-COUNTER
+	 RECORDINGS-INCLUDE-SIMULATION
+	 DIRECTORY-CNT
+	 SYMPHONY-CLOSED
+	 MITCHELL-BACK-FIRST
+	 NO-TICKET
+	 PRIVATE-LINE
+	 AGAIN-DIR
+	 ALI-BUILDING-DESC
+	 WINNER
+	 NEXT-SLEEP-TIME
+	 P-OFLAG
+	 P-NUMBER
+	 HVAC-STATUS-TABLE
+	 2061-RECORDED
+	 INDENTS
+	 BRUISED
+	 INCREMENT-WAIT
+	 OOPS-INBUF
+	 BROWN-NORTHBOUND
+	 TUBECAR-WAITING
+	 LINE-TABLE
+	 YUKS
+	 DESCRIBE-CROWDS
+	 PRACTICAL-JOKE
+	 P-GETFLAGS
+	 QUOTE-FLAG
+	 BEYOND-BOUNDS
+	 TIME
+	 P-ITBL
+	 LOOK-AROUND
+	 P-OVTBL
+	 ALREADY-OPEN
+	 2071-CITY-NOISES
+	 RED-NORTHBOUND
+	 BOB-WILLIAMS
+	 SHOT-ON-SIGHT
+	 HERE
+	 LAST-SUN-TIME
+	 P-WON
+	 P-MERGE
+	 SL-BUFFER
+	 2081-SCORE
+	 NOT-HOLDING
+	 MAYBE-MORE
+	 TOM-SLAYTON
+	 P-INBUF
+	 DESCRIBE-VILLAGE
+	 JOYBOOTH-USED
+	 MAITRE-COUNTER
+	 P-AND
+	 ENTER-COMM-MODE
+	 CREDIT
+	 MESSAGE-LINE
+	 LIGHT-LEVEL
+	 P-PRSO
+	 YOU-ARE
+	 PRSA
+	 BOOK-PURCHASED
+	 CLERK-WAITING
+	 P-AADJ
+	 NUMBER-OF-MESSAGES
+	 DATE
+	 2051-RECORDED
+	 P-XADJ
+	 ZOO-FLAG
+	 MONTH
+	 TECHNICAL-DIFFICULTIES
+	 P-SYNTAX
+	 L-DATE
+	 P-OCLAUSE
+	 STOOL-DESC
+	 FOUNTAIN-DESC
+	 P-GWIMBIT
+	 P-MERGED
+	 DORM-RAID-FLAG
+	 ELAPSED-TIME
+	 2061-CITY-NOISES
+	 PRSO
+	 BARTENDER-YELLS
+	 MEAL-STATUS
+	 RED-TABLE
+	 2071-SCORE
+	 BROWN-TUBECAR-IN-STATION
+	 AQUARIUM-SMELL
+	 ALREADY-CLOSED
+	 TOBACCO-ODOR
+	 IT-LOOKS-LIKE
+	 P-LEXV
+	 C-INTS
+	 SCORE-TABLE
+	 WALLY-THE-WEATHERMAN
+	 P-LEN
+	 MOVIE-TITLE
