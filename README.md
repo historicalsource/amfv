@@ -1,6 +1,6 @@
 # A Mind Forever Voyaging Source Code Collection
 
-A Mind Forever Voyaging is a 1985 interactive fiction game written by Mike Berlyn and published by Infocom.
+A Mind Forever Voyaging is a 1985 interactive fiction game written by Steve Meretzky and published by Infocom.
 
 Further information on A Mind Forever Voyaging:
 
